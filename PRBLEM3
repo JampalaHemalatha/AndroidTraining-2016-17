@@ -1,0 +1,22 @@
+import java.util.*;
+public class Pro3 {
+	
+	public static void main (String[] args) {
+		Scanner s=new Scanner(System.in);
+		String str,str1,str2="",str3="",str4;
+		int i;
+		str=s.nextLine();
+		str1=s.nextLine();
+		int m=str.length();
+		for(i=0;i<m/2;i++);
+		Integer n=i;
+		for(i=0;i<n;i++)
+		str2=str2+str.charAt(i);
+		for(i=n;i<m;i++)
+		str3=str3+str.charAt(i);
+		str4=str2+str1+str3;
+		System.out.println(str4);
+		
+		
+	}
+}
